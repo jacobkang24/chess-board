@@ -1,16 +1,3 @@
-# test_queens.py
-#
-# ICS 33 Spring 2024
-# Project 0: History of Modern
-#
-# Unit tests for the QueensState class in "queens.py".
-#
-# Docstrings are not required in your unit tests, though each test does need to have
-# a name that clearly indicates its purpose.  Notice, for example, that the provided
-# test method is named "test_queen_count_is_zero_initially" instead of something generic
-# like "test_queen_count", since it doesn't entirely test the "queen_count" method,
-# but instead focuses on just one aspect of how it behaves.  You'll want to do likewise.
-
 import unittest
 from queens import QueensState, Position, DuplicateQueenError, MissingQueenError
 
