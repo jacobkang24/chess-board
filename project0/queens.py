@@ -1,22 +1,3 @@
-# queens.py
-#
-# ICS 33 Spring 2024
-# Project 0: History of Modern
-#
-# A module containing tools that could assist in solving variants of the
-# well-known "n-queens" problem.  Note that we're only implementing one part
-# of the problem: immutably managing the "state" of the board (i.e., which
-# queens are arranged in which cells).  The rest of the problem -- determining
-# a valid solution for it -- is not our focus here.
-#
-# Your goal is to complete the QueensState class described below, though
-# you'll need to build it incrementally, as well as test it incrementally by
-# writing unit tests in test_queens.py.  Make sure you've read the project
-# write-up before you proceed, as it will explain the requirements around
-# following (and documenting) an incremental process of solving this problem.
-#
-# DO NOT MODIFY THE Position NAMEDTUPLE OR THE PROVIDED EXCEPTION CLASSES.
-
 from collections import namedtuple
 from typing import Self
 
@@ -24,9 +5,7 @@ from typing import Self
 
 Position = namedtuple('Position', ['row', 'column'])
 
-# Ordinarily, we would write docstrings within classes or their methods.
-# Since a namedtuple builds those classes and methods for us, we instead
-# add the documentation by hand afterward.
+
 Position.__doc__ = 'A position on a chessboard, specified by zero-based row and column numbers.'
 Position.row.__doc__ = 'A zero-based row number'
 Position.column.__doc__ = 'A zero-based column number'
